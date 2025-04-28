@@ -1,0 +1,26 @@
+fieldset{
+                    
+    width: 10em;
+    height: 13em;
+    /*box-shadow: 10px 0px 0px 0px rgba(0, 0, 0, 0.3);*/
+    border-radius: 8px;
+    position: absolute;
+    top: 10em;
+    left: 35em;
+    animation: Contour 3s infinite;
+}
+
+@keyframes Contour {
+    0%{
+        border-left-color: red;
+    }
+    25%{
+        border-bottom-color: green;
+    }
+    50%{
+        border-right-color: blue;
+    }
+    75%{
+        border-top-color: brown;
+    }
+ }
